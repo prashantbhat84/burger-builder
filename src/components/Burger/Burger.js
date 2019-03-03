@@ -13,7 +13,7 @@ const burger =(props)=>{
 																	},[]);
 																	console.log(transformedIndrigents);
 																	if(transformedIndrigents.length===0){
-																		transformedIndrigents=<p>Please  add ingredients</p>
+																		transformedIndrigents=<p>Please start  add ingredients</p>
 																	}
    return (
 				<div className={classes.Burger}>
